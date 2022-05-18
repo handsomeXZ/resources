@@ -100,7 +100,7 @@ function upPage(){
 	
 	/*-------------------------------- INTRODUCTION ---------------------------------*/
 	if(Data_json.introduction_img.length > 0){
-		document.querySelector(".IntroductionImg").style.minheight="1rem";
+		document.querySelector(".IntroductionImg").style.minHeight="1rem";
 		document.querySelector(".IntroductionImg").style.backgroundImage = "url('" + Data_json.introduction_img[0].img_url +"')" ;
 	}
 	

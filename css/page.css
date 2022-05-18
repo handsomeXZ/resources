@@ -1,0 +1,348 @@
+#Main{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	z-index: 1;
+}
+#Favorites{
+	width: 100%;
+	height: 0.5rem;
+	margin-top: 0.05rem;
+	/* border: solid 2px #2e303a; */
+	background-color: #dfe4ea;
+	border-top-left-radius: 0.02rem;
+	border-top-right-radius: 0.02rem;
+	border: 3px solid #ced6e0;
+	box-shadow: 1px 1px 9px rgb(0, 0, 0, 0.6);
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	z-index: 1;
+	transition: .1s;
+}
+#favoritesItem{
+	margin-top: 5px;
+	background-color: #2E303A;
+	width: 100%;
+	height: 0.27rem;
+	z-index: 1;
+	transition: .1s;
+	overflow: hidden;
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+#favoritesItemIco{
+	width: 100%;
+	height: 0.3rem;
+}
+.favoritesitems{
+	width: 0.6rem;
+	height: 0.75rem;
+	margin-left: 0.3rem;
+	display: flex;
+	flex-wrap: wrap;
+	cursor: pointer;
+
+}
+.favoritesitemsIco{
+	width: 0.6rem;
+	height: 0.6rem;
+	background-color: #27AE60;
+	border-radius: 0.1rem;
+}
+.favoritesitemsName{
+	width: 100%;
+	height: 0.1rem;
+	font-size: 0.1rem;
+	text-align: center;
+	color: #ced6e0;
+	margin-top: 0.05rem;
+}
+#favoritesOpen{
+	margin-top: 0.1rem;
+	width: 0.2rem;
+	height: 0.2rem;
+	background-color: #FFFFFF;
+	border: 3px solid #7bed9f;
+	border-radius: 0.25rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	z-index: 1;
+}
+
+#Filtrate{
+	width: 100%;
+	min-height: 1.7rem;
+	background-color: #b1d8b6;
+	/* box-shadow: 1px 1px 9px rgb(0, 0, 0, 0.6); */
+	display: flex;
+	flex-direction: column;
+	color: #fff;
+	font-weight: 700;
+	font-size: 18px;
+}
+#filtrateTable{
+	width: 100%;
+	height: 80%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+#FiltrateSelected{
+	width: 100%;
+	height: 20%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-wrap: nowrap;
+}
+.FiltrateSelectedItems{
+	width: 1rem;
+	height: 50%;
+	margin-left: 0.1rem;
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+}
+.FiltrateSelectedItems svg{
+	cursor: pointer;
+}
+.FiltrateSelectedItemsName{
+	width: 80%;
+	height: 100%;
+}
+.FiltrateSelectedItems:hover{
+	background-color: #ffffff55;
+}
+.filtrateTd{
+	height: 0.4rem;
+	width: 1rem;
+}
+.filtrateSelect{
+	cursor: pointer;
+}
+.filtrateSelect path{
+	transition: .06s;
+}
+
+.filtrateSelect:active path{
+	fill: #F1C40F;
+}
+#NormalList{
+	width: 100%;
+	min-height: 2rem;
+	background-color: var(--background-gray);
+/* 	border: 3px solid #27ae60; */
+	/* box-shadow: 1px 1px 9px rgb(0, 0, 0, 0.6); */
+	display: flex;
+	/* justify-content: flex-start; */
+	flex-wrap: wrap;
+	flex-direction: column;
+	
+}
+#normalListTittleBox{
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	background-color: var(--background-gray);
+}
+#normalListTittle{
+	width: 70%;
+	margin-left: 2%;
+	height: 0.4rem;
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: nowrap;
+	margin-bottom: 1px;
+	align-items: center;
+	transition: .1s;
+	color: rgb(160, 164, 180);
+	font-size: 20px;
+	font-weight: 500;
+}
+.normalListLeft{
+	/* color: #fff; */
+	/* color: var(--font-black-1); */
+	font-weight: 600;
+	display: flex;
+	align-items: center;
+}
+.normalListTittleMid_left{
+	width: 50%;
+	display: flex;
+	align-items: center;
+}
+.normalListTittleMid_Right{
+	width: 50%;
+	display: flex;
+	align-items: center;
+}
+.normalListRight{
+	display: flex;
+	align-items: center;
+}
+#NormalListBox{
+	width: 70%;
+	min-height: 0rem;
+	margin-left: 2%;
+	border-left: 3px solid #27ae60;
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+.normalItems{
+	width: 100%;
+	height: 0.8rem;
+	cursor: pointer;
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: nowrap;
+	/* background-color: #27ae6099; */
+	background-color: var(--white-a);
+	margin-bottom: 1px;
+	align-items: center;
+	transition: .1s;
+	box-shadow: var(--boxShadow-b);
+	color: var(--font-gray-2);
+}
+.normalItemsBox{
+	width: 100%;
+	height: 0.7rem;
+	padding-left: 0.1rem;
+	padding-right: 0.1rem;
+	display: flex;
+	justify-content: flex-start;
+	
+}
+.normalItems:hover{
+	background-color: #27ae6053;
+}
+.normalListLeft{
+	width: 55%;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+.normalListLeft_Name{
+	width: 100%;
+	height: 0.4rem;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	font-weight: 600;
+}
+.normalListLeft_Tag{
+	width: 100%;
+	height: 0.3rem;
+	font-size: 30px;
+}
+.normalListLeft_Tag div::before{
+	content: "";
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	border-radius: 8px;
+	background-image: radial-gradient(100% 185.14% at 100% 100%,#08cc30 47.92%,#27ae60 100%);
+	margin-right: 0.1rem;
+}
+.normalListLeft_Tag div{
+	font-size: 16px;
+	height: 16px;
+	/* color: rgb(228, 234, 255); */
+	/* color: var(--font-black-1); */
+}
+
+
+.normalListMid{
+	width: 22%;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.normalListMid_Good{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.good{
+	margin-left: 0.05rem;
+}
+.normalListMid_Comment{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.comment{
+	margin-left: 0.05rem;
+}
+.normalListRight{
+	width: 23%;
+	height: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+}
+.normalListRightIco{
+	width: 0.1rem;
+	width: 0.3rem;
+	display: flex;
+	align-items: center;
+}
+.normalListRightBox{
+	width: 90%;
+	height: 100%;
+}
+.normalListRightTittle{
+	width: 100%;
+	height: 50%;
+	display: flex;
+	align-items: center;
+	font-size: 20px;
+	font-weight: 600;
+}
+.normalListRightInfo{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.normalListRightDate{
+	min-width: 10%;
+	height: 20%;
+	margin-right: 0.05rem;
+	display: flex;
+	align-items: center;
+}
+.normalListRightDate svg{
+	margin-top: 0.01rem;
+	margin-right: 0.05rem;
+}
+.normalListRightReffer{
+	min-width: 30%;
+	height: 20%;
+	font-size: 14px;
+	font-weight: 600;
+	display: flex;
+	align-items: center;
+}
+
+
+#Bottom{
+	position: relative;
+}
+#NormalListEmpty{
+	display: flex;
+	justify-content: center;
+	margin-top: 0.5rem;
+	width: 100%;
+	
+}

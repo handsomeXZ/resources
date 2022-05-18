@@ -1,0 +1,136 @@
+#Body{
+	margin: 0;
+	padding: 0;
+}
+#Background{
+	position: absolute;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	/* background-color: rgb(255, 255, 255); */
+	background-color: var(--background-gray);
+	z-index: -10;
+}
+#Top{
+	/* background-color: rgb(101, 163, 109); */
+	background-color: #FFF;
+/* 	background-color: #1a1d28; */
+	width: 100%;
+	height: 0.5rem;
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	/* color: #FFFFFF; */
+	color: #000;
+	z-index: 10;
+	box-shadow: var(--boxShadow-e);
+}
+#Top:hover{
+	/* background-color:#27ae60; */
+	z-index: 10;
+}
+#topIco{
+	width: 35%;
+	height: 100%;
+	z-index: 10;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+}
+#Ico{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: var(--green-a);
+	font-size: 45px;
+	font-family: ;
+}
+#Ico{
+	/* background-color: #FFF; */
+	background-color: #000;
+	width: 0.4rem;
+	height: 0.4rem;
+	border-radius: 0.2rem;
+	margin-top: 0.05rem;
+	margin-left: 0.1rem;
+	z-index: 10;
+}
+#topTittle{
+	width: 2rem;
+	height: 100%;
+	margin-left: 0.2rem;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	font-size: 25px;
+	letter-spacing: 10px;
+}
+#topItem{
+	width: 65%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 10;
+}
+.topTittle{
+	width: 12%;
+	text-align: center;
+	cursor: pointer;
+}
+span:hover{
+	border-bottom: solid 3px #f1c40f;
+}
+#topUser{
+	width: 52%;
+	height: 0.5rem;
+	/* background-color: black; */
+	display: flex;
+	flex-wrap: wrap;
+	z-index: 10;
+}
+#UserIco{
+	position: absolute;
+	/* background-color: #FFF; */
+	background-color: #000;
+	width: 0.4rem;
+	height: 0.4rem;
+	right: 0.5rem;
+	border-radius: 0.2rem;
+	margin-top: 0.05rem;
+	z-index: 10;
+}
+#UserIco:hover{
+	cursor: pointer;
+	z-index: 10;
+}
+#userDetailList{
+	position: absolute;
+	visibility: hidden;
+	background-color: var(--white-a);
+	width: 0rem;
+	height: 0rem;
+	/* 显示后是width：1rem  height：2rem */
+	right: 0.2rem;
+	top: 0.5rem;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	z-index: 10;
+	transition: .1s;
+}
+.userDetailListItems{
+	margin-top: 0.05rem;
+	width: 0.8rem;
+	height: 0.3rem;
+	/* background-color: #27AE60; */
+	background-color:var(--white-a);
+	box-shadow: var(--boxShadow-b);
+	border-radius: 0.02rem;
+	cursor: pointer;
+	z-index: 10;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

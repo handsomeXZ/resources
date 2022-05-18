@@ -1,0 +1,33 @@
+{
+	"id":"",
+	"name":"房贷计算器",
+	"tittle":"房贷计算器及房贷利率计算大全",
+	"tag_num":"2",
+	"tag":[
+		{
+			"name":"个人财务"
+		},
+		{
+			"name":"本月"
+		}
+	],
+	"referrer":"汤宇婷",
+	"comments_num":"1",
+	"comments":[
+		{
+			"score":"5",
+			"content":""
+		}
+	],
+	"introduction":"房贷计算器及房贷利率计算大全详解关于按贷款额度算,按面积算,逐月递减还款,每月等额还款问题。帮助广大网民快捷了解房贷计算在线计算结果。",
+	"introduction_img_num":"0",
+	"introduction_img":[
+		{
+			"img_url":"img/toolDetials_fdjsq.png"
+		}
+	],
+	"online_url":"https://www.kuaiji.com/tool/fangdai.html",
+	"online_collect":"true",
+	"download_url":"null",
+	"download_collect":""
+}

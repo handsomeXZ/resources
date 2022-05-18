@@ -1,0 +1,16 @@
+{
+	"favorites":[
+		{
+			"id":"1",
+			"name":"房贷计算器",
+			"tool_url":"",
+			"img_url":""
+		},
+		{
+			"id":"2",
+			"name":"发票识别软件",
+			"tool_url":"",
+			"img_url":""
+		}
+		]
+}

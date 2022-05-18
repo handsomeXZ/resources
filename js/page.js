@@ -57,7 +57,7 @@ http.onreadystatechange = function() {
 	}
 }
 // http://vcafilm.gitee.io/resources/TestData/page.json
-http.open("GET", "http://127.0.0.1:8848/Creative/TestData/page.json", true);
+http.open("GET", "https://handsomexz.github.io/resourcesTestData/page.json", true);
 http.send();
 
 function upFavorites() {

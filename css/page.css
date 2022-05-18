@@ -75,19 +75,24 @@
 }
 
 #Filtrate{
-	width: 100%;
-	min-height: 1.7rem;
-	background-color: #b1d8b6;
+	width: 80%;
+	height: 1.5rem;
+	margin-top: 0.4rem;
+	/* background-color: #b1d8b6; */
+	background-color: var(--white-a);
 	/* box-shadow: 1px 1px 9px rgb(0, 0, 0, 0.6); */
 	display: flex;
-	flex-direction: column;
-	color: #fff;
+	/* flex-direction: column; */
+	justify-content: center;
+	color: var(--font-gray-4);
 	font-weight: 700;
-	font-size: 18px;
+	font-size: 14px;
+	flex-wrap: wrap;
 }
 #filtrateTable{
 	width: 100%;
 	height: 80%;
+	padding: 16px;
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
@@ -107,6 +112,7 @@
 	display: flex;
 	flex-wrap: nowrap;
 	align-items: center;
+	border-radius: 0.05rem;
 }
 .FiltrateSelectedItems svg{
 	cursor: pointer;
@@ -135,23 +141,24 @@
 #NormalList{
 	width: 100%;
 	min-height: 2rem;
-	background-color: var(--background-gray);
+	background-color: var(--background-gray-b);
 /* 	border: 3px solid #27ae60; */
 	/* box-shadow: 1px 1px 9px rgb(0, 0, 0, 0.6); */
 	display: flex;
 	/* justify-content: flex-start; */
 	flex-wrap: wrap;
-	flex-direction: column;
+	/* flex-direction: column; */
+	justify-content: center;
 	
 }
 #normalListTittleBox{
 	width: 100%;
 	display: flex;
-	justify-content: flex-start;
-	background-color: var(--background-gray);
+	justify-content: center;
+	background-color: var(--background-gray-b);
 }
 #normalListTittle{
-	width: 70%;
+	width: 80%;
 	margin-left: 2%;
 	height: 0.4rem;
 	display: flex;
@@ -160,7 +167,8 @@
 	margin-bottom: 1px;
 	align-items: center;
 	transition: .1s;
-	color: rgb(160, 164, 180);
+	/* color: rgb(160, 164, 180); */
+	color: var(--font-gray-4);
 	font-size: 20px;
 	font-weight: 500;
 }
@@ -186,9 +194,8 @@
 	align-items: center;
 }
 #NormalListBox{
-	width: 70%;
+	width: 80%;
 	min-height: 0rem;
-	margin-left: 2%;
 	border-left: 3px solid #27ae60;
 	display: flex;
 	justify-content: flex-start;

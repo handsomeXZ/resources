@@ -8,7 +8,7 @@
 	width: 100%;
 	height: 100%;
 	/* background-color: rgb(255, 255, 255); */
-	background-color: var(--background-gray);
+	background-color: var(--background-gray-b);
 	z-index: -10;
 }
 #Top{
@@ -78,9 +78,12 @@
 	width: 12%;
 	text-align: center;
 	cursor: pointer;
+	font-size: 14px;
+	font-weight: 600;
+	color: var(--font-gray-4);
 }
 span:hover{
-	border-bottom: solid 3px #f1c40f;
+	border-bottom: solid 3px #acff7f;
 }
 #topUser{
 	width: 52%;

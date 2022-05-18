@@ -2,10 +2,12 @@
 	--font-gray-1:rgb(187, 187, 187);
 	--font-gray-2:#7d7d7d;
 	--font-gray-3:#717171;
+	--font-gray-4:#474747;
 	
 	--font-black-1:#000;
 	
-	--background-gray:#f7f7f7;
+	--background-gray-a:#f7f7f7;
+	--background-gray-b:rgb(241, 243, 245);
 	
 	--boxShadow-a:0px 0px 30px #00000020;
 	--boxShadow-b:3px 3px 9px #00000020;

@@ -22,7 +22,7 @@ if(pair!="null"){
 		upPage();
 	}}
 	
-	http.open("GET", "http://vcafilm.gitee.io/resources/TestData/"+pair[1]+".json", true);
+	http.open("GET", "https://handsomexz.github.io/resources/TestData/"+pair[1]+".json", true);
 	http.send();
 }
 

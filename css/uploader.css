@@ -1,0 +1,163 @@
+.uploaderBox{
+	width: 95%;
+	position: absolute;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	z-index: 5;
+}
+.uploaderbackground{
+	width: 8.5rem;
+	height: 2.4rem;
+	font-size: 20px;
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: nowrap;
+	background-color: var(--white-a);
+	transition: .1s;
+}
+.uploader{
+	width: 4.5rem;
+	height: 2.4rem;
+	font-size: 20px;
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	background-color: var(--white-a);
+	z-index: 5;
+	transition: .1s;
+}
+.uploaderform{
+	width: 4.5rem;
+	height: 2rem;
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	z-index: 5;
+	transition: .1s;
+}
+#uploaderTitle{
+	width: 4.4rem;
+	margin-left: 0.1rem;
+	margin-top: 0.1rem;
+	height: 0.22rem;
+	margin-bottom: 0.06rem;
+	border: solid 1px var(--font-gray-1);
+	z-index: 5;
+}
+.uploaderSelectOut1{
+	width: 2.3rem;
+	margin-right: 0.04rem;
+	margin-left: 0.1rem;
+	height: 0.22rem;
+	display: flex;
+	justify-content: center;
+	z-index: 5;
+}
+.uploaderSelectOut2{
+	width: 2.05rem;
+	height: 0.22rem;
+	display: flex;
+	justify-content: center;
+	z-index: 5;
+}
+#uploaderSelectName{
+	width: 100%;
+	height: 0.22rem;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	z-index: 5;
+}
+.uploaderSelectNameList{
+	width: 100%;
+	height: 2rem;
+	border: solid 1px var(--font-gray-1);
+	background-color: var(--white-a);
+	z-index: 7;
+	transform: translate3d(0px, -2.23rem, 0px);
+}
+#uploaderSelectTab{
+	width: 100%;
+	height: 0.22rem;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	z-index: 5;
+}
+.uploaderSelectTabList{
+	width: 100%;
+	height: 2rem;
+	border: solid 1px var(--font-gray-1);
+	background-color: var(--white-a);
+	z-index: 7;
+	transform: translate3d(0px, -2.23rem, 0px);
+}
+
+#uploaderText{
+	width: 4.4rem;
+	margin-left: 0.1rem;
+	height: 1.23rem;
+	margin-top: 0.06rem;
+	z-index: 5;
+}
+#uploaderSubmit{
+	width: 1.2rem;
+	height: 0.25rem;
+	margin-left: 0.1rem;
+	background: linear-gradient(86.65deg, #10cfcb 0%, #13d9cd .01%, #61ffd7 77.88%);
+	box-shadow: 0px 1px 2px rgb(16 24 40 / 5%);
+	border-radius: 2px;
+	color: var(--font-gray-4);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	z-index: 5;
+}
+#uploaderCancel{
+	width: 0.7rem;
+	height: 0.25rem;
+	margin-left: 0.1rem;
+	font-size: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	z-index: 5;
+}
+summary{
+	outline: none;
+	cursor: pointer;
+	background-color: var(--white-a);
+	list-style: none;
+	border: solid 1px var(--font-gray-1);
+	z-index: 5;
+}
+summary::-webkit-details-marker {
+	display: none;
+	width: 0%;
+	height: 0%;
+	font-size: 0%;
+	padding: 0%;
+	margin: 0%;
+	z-index: 5;
+}
+.uploaderButtonBox{
+	width: 8.5rem;
+	height: 0.4rem;
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: nowrap;
+	align-items: center;
+	z-index: 5;
+}
+#uploaderSize{
+	margin-left: 6.15rem;
+	width: 0.14rem;
+	height: 0.14rem;
+	cursor: pointer;
+}
+.uploaderEmpty{
+	width: 4rem;
+}
